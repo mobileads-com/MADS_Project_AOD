@@ -1,0 +1,655 @@
+body {
+    margin: 0;
+    width: 320px;
+    height: 480px;
+    
+}
+
+body:after {
+    display: none;
+    content: : url(../img/bg-1.jpg) url(../img/bg-2.jpg) url(../img/bg3-tv.jpg) url(../img/bg-frame2-tv.jpg) url(../img/bg-pc.jpg) url(../img/bg-pc2.jpg) url(../img/btn3.jpg) url(../img/discover-btn.jpg) url(../img/find-btn.png) url(../img/finger.png) url(../img/ob.png) url(../img/pict1.png) url(../img/pict11.png) url(../img/slider-1.png) url(../img/slider-2.png) url(../img/slider-3.png) url(../img/text.png) url(../img/tv.png) url(../img/wipe-to.png);
+}
+
+#rma-widget {
+    width: 320px;
+    height: 480px;
+}
+
+#rma-widget.transform {
+    width: 320px;
+    height: 480px;
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+#redux{
+    z-index: 2;
+}
+#robot{
+    position: absolute;
+}
+
+.container{
+    width:320px;
+    height:480px;
+    overflow: hidden;
+    position: relative;
+    background: url(../img/bg-pc2.jpg) no-repeat;
+    z-index: 2;
+ }
+
+.cont2{
+    -webkit-transition-delay: 4s;
+    -moz-transition-delay:  4s;
+    -ms-transition-delay:  4s;
+    -o-transition-delay:  4s;
+    transition-delay:  4s;
+    -webkit-transition-delay: 4s;
+    -webkit-animation-name: cont2;
+    -moz-animation-name:  cont2;
+    -o-animation-name:  cont2;
+    animation-name:  cont2;
+    -moz-animation-duration: 4s;
+    -ms-animation-duration: 4s;
+    -o-animation-duration: 4s;
+    webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-duration: 4s;
+    -webkit-animation-fill-mode: forwards;  /* Chrome, Safari, Opera */
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    background: url(../img/bg-pc2.jpg) no-repeat;
+}
+
+@-webkit-keyframes cont2 {
+    0%   { background: url(../img/bg-pc2.jpg);}
+    33%   { background: url(../img/bg-pc2.jpg);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    66%   { background: url(../img/bg-pc2.jpg);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    100% {background: #fff;
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);}
+}
+@-moz-keyframes cont2 {
+    0%   { background: url(../img/bg-pc2.jpg);}
+    33%   { background: url(../img/bg-pc2.jpg);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    66%   { background: url(../img/bg-pc2.jpg);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    100% {background: #fff;
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);}
+}
+@-o-keyframes cont2 {
+    0%   { background: url(../img/bg-pc2.jpg);}
+    33%   { background: url(../img/bg-pc2.jpg);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    66%   { background: url(../img/bg-pc2.jpg);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    100% {background: #fff;
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);}
+}
+@-ms-keyframes cont2 {
+    0%   { background: url(../img/bg-pc2.jpg);}
+    33%   { background: url(../img/bg-pc2.jpg);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    66%   { background: url(../img/bg-pc2.jpg);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    100% {background: #fff;
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);}
+}
+@keyframes cont2 {
+    0%   { background: url(../img/bg-pc2.jpg);}
+    33%   { background: url(../img/bg-pc2.jpg);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    66%   { background: url(../img/bg-pc2.jpg);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    100% {background: #fff;
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);}
+}
+.cont3{
+    background: #fff;
+    transition: 1s;
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+    -ms-transform: scale(1,1);
+    -o-transform: scale(1,1);
+    transform: scale(1,1);
+}
+.picture{
+    position:absolute;
+    right:-400px;
+    top: 180px;
+    text-align: center;
+}
+.text-block{
+    position:absolute;
+    left:-700px;
+    bottom: 70px;
+    right:0;
+    text-align: center;
+}
+.text2{
+    position:absolute;
+    left:-400px;
+    -webkit-animation-name: text2;
+    -moz-animation-name:  text2;
+    -o-animation-name:  text2;
+    animation-name:  text2;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;  /* Chrome, Safari, Opera */
+    -moz-animation-fill-mode:  forwards;
+    -o-animation-fill-mode:  forwards;
+    animation-fill-mode:  forwards;
+}
+@-webkit-keyframes text2 {
+    0%{ left: -400px;}
+    100% {left:0; right:0;}
+}
+@-moz-keyframes text2 {
+    0%{ left: -400px;}
+    100% {left:0; right:0;}
+}
+@-ms-keyframes text2 {
+0%{ left: -400px;}
+100% {left:0; right:0;}
+}
+@-o-keyframes text2 {
+    0%{ left: -400px;}
+    100% {left:0; right:0;}
+}
+@keyframes text2 {
+    0%{ left: -400px;}
+    100% {right:0; left:0;}
+}
+.btn-find{
+    position:absolute;
+    bottom: -100px;
+    left:0;
+    right: 0;
+    text-align: center;
+}
+.btn-find2, .btn-find3{
+    cursor:pointer;
+}
+.btn-discover, .btn-watch{
+    position:absolute;
+    left:0;
+    right: 0;
+    bottom: 30px;
+    text-align: center;
+}
+.find2{
+    position:absolute;
+    bottom:-400px;
+    -webkit-animation-name: find2;
+    -moz-animation-name: find2;
+    -o-animation-name: find2;
+    animation-name: find2;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;  /* Chrome, Safari, Opera */
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    z-index: 999;
+}
+@-webkit-keyframes find2 {
+    0%{ bottom: -400px;}
+    100% {bottom:15px;}
+}
+@-moz-keyframes find2 {
+    0%{ bottom: -400px;}
+    100% {bottom:15px;}
+}
+@-o-keyframes find2 {
+    0%{ bottom: -400px;}
+    100% {bottom:15px;}
+}
+@-ms-keyframes find2 {
+    0%{ bottom: -400px;}
+    100% {bottom:15px;}
+}
+@keyframes find2 {
+    0%{ bottom: -400px;}
+    100% {bottom:15px;}
+}
+.pict2{
+    position:absolute;
+    -webkit-animation-name: pict2;
+    -moz-animation-name:  pict2;
+    -o-animation-name:  pict2;
+    animation-name:  pict2;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;  /* Chrome, Safari, Opera */
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -ms-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+}
+@-webkit-keyframes pict2 {
+   0%{ right: -500px;}
+   100% {right:0; left:0;}
+}
+@-moz-keyframes pict2 {
+    0%{ right: -500px;}
+    100% {right:0; left:0;}
+}
+@-o-keyframes pict2 {
+    0%{ right: -500px;}
+    100% {right:0; left:0;}
+}
+@-ms-keyframes pict2 {
+    0%{ right: -500px;}
+    100% {right:0; left:0;}
+}
+@keyframes pict2 {
+    0%{ right: -500px;}
+    100% {right:0; left:0;}
+}
+
+
+.video, .sect {
+    width: 100%;
+    height: 200px;
+    background: #000;
+    top: 60px;
+    opacity: 1;
+    left: 1px;
+}
+.pos-a {
+    position: absolute;
+}
+.frame2 {
+    width: 320px;
+    height: 480px;
+    overflow: hidden;
+    position: absolute;
+    transform: scale(0.9,0.9);
+    background: url(../img/bg-frame2-tv.jpg);
+    z-index: 0;
+    opacity: 0;
+}
+.frame2-2{
+    -webkit-animation-name: frame2;
+    opacity:0;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;;
+    -webkit-animation-name: frame2;
+    -moz-animation-name: frame2;
+    -o-animation-name: frame2;
+    animation-name: frame2;
+    -webkit-animation-fill-mode: forwards;  /* Chrome, Safari, Opera */
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-transform: scale(0.9,0.9);
+    -moz-transform: scale(0.9,0.9);
+    -ms-transform: scale(0.9,0.9);
+    -o-transform: scale(0.9,0.9);
+    transform: scale(0.9,0.9);
+    z-index: 99;
+}
+@-webkit-keyframes frame2 {
+    0%{ opacity: 0; display: none;
+        -webkit-transform: scale(0.9,0.9);
+        transform: scale(0.9,0.9);
+    }
+    100% {opacity: 1; display: block;
+        -webkit-transform: scale(1,1);
+        transform: scale(1,1);
+    }
+}
+@-moz-keyframes frame2 {
+    0%{ opacity: 0; display: none;
+        -webkit-transform: scale(0.9,0.9);
+        transform: scale(0.9,0.9);
+    }
+    100% {opacity: 1; display: block;
+        -moz-transform: scale(1,1);
+        transform: scale(1,1);
+    }
+}
+@-o-keyframes frame2 {
+    0%{ opacity: 0; display: none;
+        -o-transform: scale(0.9,0.9);
+        transform: scale(0.9,0.9);
+    }
+    100% {opacity: 1; display: block;
+        -o-transform: scale(1,1);
+        transform: scale(1,1);
+    }
+}
+@-ms-keyframes frame2 {
+    0%{ opacity: 0; display: none;
+        -ms-transform: scale(0.9,0.9);
+        transform: scale(0.9,0.9);
+    }
+    100% {opacity: 1; display: block;
+        -ms-transform: scale(0.9,0.9);
+        transform: scale(0.9,0.9);
+    }
+}
+@keyframes frame2 {
+    0%{ opacity: 0; display: none;
+        -webkit-transform: scale(0.9,0.9);
+        -moz-transform: scale(0.9,0.9);
+        -ms-transform: scale(0.9,0.9);
+        -o-transform: scale(0.9,0.9);
+        transform: scale(0.9,0.9);
+    }
+    100% {opacity: 1; display: block;
+        -webkit-transform: scale(1,1);
+        -moz-transform: scale(1,1);
+        -ms-transform: scale(1,1);
+        -o-transform: scale(1,1);
+        transform: scale(1,1);
+    }
+}
+.frame3 {
+    width: 320px;
+    height: 480px;
+    overflow: hidden;
+    position: absolute;
+    background: url(../img/bg3-tv.jpg);
+    z-index: 0;
+    opacity: 0;
+}
+.frame3-2{
+    -webkit-animation-name: frame3;
+    opacity:0;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;;
+    -webkit-animation-name: frame3;
+    -moz-animation-name: frame3;
+    -o-animation-name: frame3;
+    animation-name: frame3;
+    -webkit-animation-fill-mode: forwards;  /* Chrome, Safari, Opera */
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-transform: scale(0.9,0.9);
+    -moz-transform: scale(0.9,0.9);
+    -ms-transform: scale(0.9,0.9);
+    -o-transform: scale(0.9,0.9);
+    transform: scale(0.9,0.9);
+    z-index: 99;
+}
+@-webkit-keyframes frame3 {
+    0%{ opacity: 0; display: none;
+        -webkit-transform: scale(0.9,0.9);
+        transform: scale(0.9,0.9);
+    }
+    100% {opacity: 1; display: block;
+        -webkit-transform: scale(1,1);
+        transform: scale(1,1);
+    }
+}
+@-moz-keyframes frame3 {
+    0%{ opacity: 0; display: none;
+        -webkit-transform: scale(0.9,0.9);
+        transform: scale(0.9,0.9);
+    }
+    100% {opacity: 1; display: block;
+        -moz-transform: scale(1,1);
+        transform: scale(1,1);
+    }
+}
+@-o-keyframes frame3 {
+    0%{ opacity: 0; display: none;
+        -o-transform: scale(0.9,0.9);
+        transform: scale(0.9,0.9);
+    }
+    100% {opacity: 1; display: block;
+        -o-transform: scale(1,1);
+        transform: scale(1,1);
+    }
+}
+@-ms-keyframes frame3 {
+    0%{ opacity: 0; display: none;
+        -ms-transform: scale(0.9,0.9);
+        transform: scale(0.9,0.9);
+    }
+    100% {opacity: 1; display: block;
+        -ms-transform: scale(0.9,0.9);
+        transform: scale(0.9,0.9);
+    }
+}
+@keyframes frame3 {
+    0%{ opacity: 0; display: none;
+        -webkit-transform: scale(0.9,0.9);
+        -moz-transform: scale(0.9,0.9);
+        -ms-transform: scale(0.9,0.9);
+        -o-transform: scale(0.9,0.9);
+        transform: scale(0.9,0.9);
+    }
+    100% {opacity: 1; display: block;
+        -webkit-transform: scale(1,1);
+        -moz-transform: scale(1,1);
+        -ms-transform: scale(1,1);
+        -o-transform: scale(1,1);
+        transform: scale(1,1);
+    }
+}
+
+.wipe-tx{
+    position:absolute;
+    bottom: 160px;
+    display: block;
+    left: 0;
+    text-align: center;
+    z-index: 3;
+    right: 0;
+    overflow: hidden;
+    pointer-events: none;;
+}
+.wipe-tx img{
+    width:240px;
+}
+
+.finger img{
+    width:95px;
+}
+.fing-wipe{
+    z-index: 0;
+    display: none;
+    position:relative;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -o-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+.ob {
+    position: absolute;
+    right:0;
+    left:0;
+    text-align: center;
+    z-index: 0;
+}
+.ob img {
+    margin-top: 5px;
+}
+.finger {
+    position:absolute;
+    text-align: center;
+    top:175px;
+    left:0;
+    right:0;
+    z-index: 9;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-name: finger;
+    -moz-animation-name: finger;
+    -o-animation-name: finger;
+    animation-name: finger;
+    -webkit-animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    -o-animation-duration: 3s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    transform:rotate(0deg);
+    pointer-events: none;
+    overflow: hidden;
+}
+.finger img{
+    pointer-events: none;
+}
+@-webkit-keyframes finger {
+0%   {top:175px; right:0px}
+20%  {top:195px; right:20px}
+40%  {top:155px; right:-20px}
+60%  {top:195px; right:20px}
+80%  {top:155px; right:-20px}
+100% {top:175px; right:0px}
+}
+@-moz-keyframes finger {
+    0%   {top:175px; right:0px}
+    20%  {top:195px; right:20px}
+    40%  {top:155px; right:-20px}
+    60%  {top:195px; right:20px}
+    80%  {top:155px; right:-20px}
+    100% {top:175px; right:0px}
+}
+@-o-keyframes finger {
+    0%   {top:175px; right:0px}
+    20%  {top:195px; right:20px}
+    40%  {top:155px; right:-20px}
+    60%  {top:195px; right:20px}
+    80%  {top:155px; right:-20px}
+    100% {top:175px; right:0px}
+}
+@-ms-keyframes finger {
+    0%   {top:175px; right:0px}
+    20%  {top:195px; right:20px}
+    40%  {top:155px; right:-20px}
+    60%  {top:195px; right:20px}
+    80%  {top:155px; right:-20px}
+    100% {top:175px; right:0px}
+}
+@keyframes finger {
+    0%   {top:175px; right:0px}
+    20%  {top:195px; right:20px}
+    40%  {top:155px; right:-20px}
+    60%  {top:195px; right:20px}
+    80%  {top:155px; right:-20px}
+    100% {top:175px; right:0px}
+}
+.canvas {
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+.fb-share{
+    position: absolute;
+    top:13px;
+    right:10px;
+}
